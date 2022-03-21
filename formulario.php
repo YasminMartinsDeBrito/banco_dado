@@ -11,7 +11,7 @@
   $estado = $_POST['estado'];
   $rua = $_POST['rua'];
 
-  // pegando os postos e fazemdo  a conecão
+  // pegando os user posto e fazemdo  a conecão
   $result = mysqli_query($conexao, "INSERT INTO usuario(nome, email,telefone,senha, cidade,estado,rua)  VALUES ('$nome', '$email', '$telefone', '$senha', '$cidade', '$estado', '$rua')");
   header('Location: sistema.php');
 }
