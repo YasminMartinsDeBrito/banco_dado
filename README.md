@@ -1,6 +1,5 @@
 # banco_dado
 
-Para acessa a pesquisa da tabela , pode clicar no icone de pesquisa ou tambem apertar a tecla "ENTER"
 
 a pagina 
 ### config.php
@@ -15,6 +14,7 @@ a ser acessado
 <hr>
 
 a pagina
+
 ### formulario.php
 comeca com um codigo php, que faz o POST, ou seja ele adiciona o formulario no banco de dados , pela pela config.php
 depois adiciono todos os dados do formulario em variaveis, para poder ,fazer a conexao e inserir os dados e  os valores no banco de dados na tabela usuario
@@ -23,13 +23,15 @@ depois adiciono todos os dados do formulario em variaveis, para poder ,fazer a c
  #### logo abaixo no formulario tem todo o html e css que é precisso pra deixa a aplicação bonitinha
  
  <hr>
- a pagina
+a pagina
+ 
 ### index.php
  é a pagina inicial que te leva para o cadastro ou para o banco de dados
  
  
  <hr>
- a pagina
+a pagina
+ 
 ### sistema.php
  é a sessão aonde vai ser mostrado todos os usuario do banco de dados e tembem a barrinha de pesquisa podendo ser acessado pelo id, name, ou email
  
