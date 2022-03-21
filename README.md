@@ -22,10 +22,13 @@ depois adiciono todos os dados do formulario em variaveis, para poder ,fazer a c
  
  #### logo abaixo no formulario tem todo o html e css que é precisso pra deixa a aplicação bonitinha
  
+ <hr>
  a pagina
  ### index.php
  é a pagina inicial que te leva para o cadastro ou para o banco de dados
  
+ 
+ <hr>
  a pagina
  ### sistema.php
  é a sessão aonde vai ser mostrado todos os usuario do banco de dados e tembem a barrinha de pesquisa podendo ser acessado pelo id, name, ou email
