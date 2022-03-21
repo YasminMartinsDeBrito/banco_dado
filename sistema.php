@@ -34,8 +34,8 @@ $result = $conexao->query($sql);
 
         a {
             float: right;
-            width: 30px;
-            margin-right: 20px;
+            width: 45px;
+            margin-right: 10px;
             padding: 2px;
             border-radius: 5px;
             text-decoration: none;
@@ -43,10 +43,44 @@ $result = $conexao->query($sql);
             background-image: linear-gradient(to right, rgb(248, 74, 95), rgb(255, 177, 78));
             cursor: pointer;
         }
+        .registro{
+            width: 60px;
+            margin-left: 5px;
+        }
 
         a:hover {
             background-image: linear-gradient(to right, rgb(240, 60, 81), rgb(245, 165, 61));
 
+        }
+        input{
+            margin-top: 10px;
+            padding: 5px 0;
+            border-radius: 5px;
+        }
+        button{
+           border-radius: 5px;
+           padding: 2px 3px;
+           background-color: #fff;
+        }
+        table{
+            margin : 0 auto;
+            border: 1px solid #fff;
+            border-radius: 15px 15px 0 0;
+            margin-top: 20px; 
+            padding: 5px;
+        }
+        td,tr{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 5px;
+        }
+        tbody tr{
+            border-bottom: 1px solid #000;
+        }
+        thead tr{
+            margin: 5px;
         }
         
     </style>
@@ -55,6 +89,7 @@ $result = $conexao->query($sql);
 <body>
     <main>
     <a href="index.php">Voltar</a>
+    <a class='registro'href="formulario.php">Registro</a>
    
         <div class='box'>
             <input type='search' class='input' placeholder="Pesquisar" id='pesquisar'>
@@ -66,17 +101,17 @@ $result = $conexao->query($sql);
             
         </div>
         <div class='tabela'>
-        <table  >
+        <table >
             <thead>
                 <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Nome</th>
-                    <th scope="col">Email</th>
-                    <th scope="col">Senha</th>
-                    <th scope="col">Telefone</th>
-                    <th scope="col">Cidade</th>
-                    <th scope="col">Estado</th>
-                    <th scope="col">Rua</th>
+                    <th class="col">#</th>
+                    <th class="col">Nome</th>
+                    <th class="col">Email</th>
+                    <th class="col">Senha</th>
+                    <th class="col">Telefone</th>
+                    <th class="col">Cidade</th>
+                    <th class="col">Estado</th>
+                    <th class="col">Rua</th>
                 </tr>
             </thead>
             <tbody>

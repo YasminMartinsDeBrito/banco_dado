@@ -30,15 +30,19 @@
       font-family: Arial, Helvetica, sans-serif;
       background-image: linear-gradient(to right, rgb(248, 74, 95), rgb(255, 177, 78));
     }
-
+    a{
+      height: 20px;
+      margin-bottom: 20px;
+    }
     div.container {
-      position: absolute;
+      position: fixed;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
       background-color: rgba(0, 0, 0, 0.6);
       border-radius: 10px;
-      height: 520px
+      height: 520px;
+      margin-top: 40px;
     }
 
     form {
@@ -90,6 +94,26 @@
     input#submit:hover {
       background-image: linear-gradient(to right, rgb(240, 60, 81), rgb(245, 165, 61));
     }
+    a {
+      text-align: center;
+            float: left;
+            width: 45px;
+            margin-right: 20px;
+            padding: 2px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #fff;
+            background-image: linear-gradient(to right, rgb(248, 74, 95), rgb(255, 177, 78));
+            cursor: pointer;
+        }
+        .banco{
+          width:120px;
+        }
+
+        a:hover {
+            background-image: linear-gradient(to right, rgb(240, 60, 81), rgb(245, 165, 61));
+
+        }
 
     @media(min-width:1440px) {
       form {
@@ -127,9 +151,9 @@
 
 <body>
   <main>
-
     <a href="index.php">Voltar</a>
-    <a href="sistema.php">Banco de dados</a>
+    <a class='banco'href="sistema.php">Banco de dados</a>
+
     <div class="container">
       <form action="formulario.php" method="POST">
         <fieldset>
